@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <h1>Welcome to TicTacToe</h1>
+    </nav>
+    <div class="infoTurn">Turn for X</div>
+    <div class="gameContainer">
+        <div class="boxContainer">
+            <div class="box" onclick="Start(this)"></div>
+            <div class="box" onclick="Start(this)"></div>
+            <div class="box" onclick="Start(this)"></div>
+            <div class="box" onclick="Start(this)"></div>
+            <div class="box" onclick="Start(this)"></div>
+            <div class="box" onclick="Start(this)"></div>
+            <div class="box" onclick="Start(this)"></div>
+            <div class="box" onclick="Start(this)"></div>
+            <div class="box" onclick="Start(this)"></div>
+        </div>
+        <div class="gamestat">
+            <div style="color: red;">X</div>
+            <div style="color: darkgreen;">O</div>
+            <div class="forX">0</div>
+            <div class="forO">0</div>
+        </div>
+    </div>
+    <div class="buttons">
+        <button class="restart" onclick="restart()">Restart</button>
+        <button class="Nextround" onclick="nextRound()">Next Round</button>
+
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
